@@ -16,4 +16,46 @@ body{
            /*     font-family: 'Gentium Book Basic', serif;
                   font-family: 'Lato', sans-serif;
                   font-family: 'Yeseva One', cursive;        */
-            }
+ }
+
+ .nav-item{
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 20px;
+    margin: 0 30px;
+ }
+
+ .nav-link{
+    color: white;
+ }
+
+ .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+ }
+
+ /* banner part css start  */
+ .carousel-caption{
+    bottom: 300px;
+    font-family: 'Yeseva One', cursive;
+ }
+
+ .carousel-caption h1{
+    font-size: 90px;
+ }
+
+ .carousel-caption a{
+    font-family: 'Lato', sans-serif;
+ }
+
+ .carousel-caption .button{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    margin: 0 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+ /* banner part css end */
